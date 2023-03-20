@@ -17,6 +17,6 @@ void main()
 {
 	int score[5] = { 12,123,12,54,1 };
 	int out;
-	out = finArrayMax(score, 5);
+	out = findArrayMax(score, 5);
 	printf("result=%d", out);
 }
