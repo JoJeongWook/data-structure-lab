@@ -25,7 +25,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="find_max.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
