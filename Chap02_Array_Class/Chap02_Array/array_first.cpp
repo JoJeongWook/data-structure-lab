@@ -4,7 +4,7 @@
 void sub(int x, int arr[])
 {
 	x = 10;
-	arr[10] = 10;
+	arr[0] = 10;
 }
 
 int main()
