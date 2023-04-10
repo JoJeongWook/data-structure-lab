@@ -12,7 +12,7 @@ public:
 	char name[40];
 	Car():speed(0),gear(0),name(""){}
 	~Car(){}
-	Car(int s, char* n, int g)
+	Car(int s, const char* n, int g)
 		:speed(s), gear(g) {
 		strcpy_s(name, n);
 	}

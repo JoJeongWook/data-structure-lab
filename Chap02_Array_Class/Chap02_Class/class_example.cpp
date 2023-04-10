@@ -1,7 +1,7 @@
 #include "SportsCar.h"
 int main() {
-	Car yourCar;
-	//Car myCar(100, "my car", 4);
+	//Car yourCar;
+	Car yourCar(100, "my car", 4);
 	yourCar.whereAmI();
 	yourCar.gear = 5;
 	yourCar.display();
