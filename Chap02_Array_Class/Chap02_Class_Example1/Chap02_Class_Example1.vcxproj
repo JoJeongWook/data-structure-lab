@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClInclude Include="birthday.h" />
     <ClInclude Include="Polynomial.h" />
+    <ClInclude Include="rectangle.h" />
+    <ClInclude Include="smarthome.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="class_polynomial.cpp" />

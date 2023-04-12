@@ -1,5 +1,7 @@
 #include "Polynomial.h"
 #include <cstring>
+#include "rectangle.h"
+#include "smarthome.h"
 
 void swap(int& x, int& y) {
 	int tmp;
@@ -19,7 +21,7 @@ int main() {
 	a.display("A= ");
 	b.display("B= ");
 	c.display("C=A+B= ");
-	*/
+	
 	Student eei[10];
 	strcpy(eei[2].name, "HyunGi Jo");
 	eei[2].bDay.month = 2;
@@ -30,5 +32,16 @@ int main() {
 	printf("a=%d, b=%d\n", a, b);
 	swap(a, b);
 	printf("swap 호출 후, a=%d, b=%d", a, b);
+	
+
+	Rectangle r1(4, 5);
+	printf("rectangle 1 Area : %lf\n", r1.getArea());
+	std::cout << "rectangle 1 Area : " << r1.getArea() << std::endl;
+	std::cout << "Is square? " << r1.isSquare() << std::endl;
+	*/
+
+	SmartHome myHome("홍길동", 23, 40, true);
+	myHome.printStatus();
+
 	return 0;
 }
