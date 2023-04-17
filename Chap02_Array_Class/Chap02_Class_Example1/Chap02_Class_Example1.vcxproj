@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="birthday.h" />
+    <ClInclude Include="music.h" />
+    <ClInclude Include="Pet.h" />
     <ClInclude Include="Polynomial.h" />
     <ClInclude Include="rectangle.h" />
     <ClInclude Include="smarthome.h" />
