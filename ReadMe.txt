@@ -1,2 +1,2 @@
-안녕하세요
+Hi
 Professor : https://github.com/johg15/data_structure
